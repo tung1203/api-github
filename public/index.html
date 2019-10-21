@@ -28,7 +28,15 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <form action="" id="search-form">
+        <input type="text" id="ipText">
+        <input type="submit" value="Search">
+      </form>
+      <ul id="list-repo"></ul>
+      <button id="load-more" style="display: none;">Load more</button>
+    </div>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
